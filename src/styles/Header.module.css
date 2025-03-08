@@ -1,0 +1,89 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0.1rem;
+    background-color: #df7eac;
+    color: #121111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.title {
+    flex: 1;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #eae3e3;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #3498db;
+}
+/* src/styles/Header.module.css */
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* Espace entre l'icône et le titre */
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.title h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.theme-toggle {
+    background-color: #9368d6; /* Couleur de fond du bouton */
+    color: #fff; /* Texte blanc */
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.theme-toggle:hover {
+    background-color: #7c4dbf; /* Couleur de fond au survol */
+    transform: translateY(-2px); /* Légère élévation */
+}
+
+.theme-toggle:active {
+    transform: translateY(0); /* Retour à la position initiale */
+}

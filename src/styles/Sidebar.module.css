@@ -1,0 +1,66 @@
+.sidebar {
+    width: 250px;
+    background-color: #df7eac; /* Fond sombre */
+    padding: 1rem;
+    height: 100vh; /* Prend toute la hauteur de l'écran */
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem; /* Espacement depuis le haut */
+}
+
+.nav a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem; /* Espacement entre l'icône et le texte */
+    text-decoration: none;
+    color: #0c0c0c; /* Texte blanc */
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease; /* Transition fluide */
+}
+
+.nav a:hover {
+    background-color: #f10f7b; /* Fond plus clair au survol */
+    transform: translateX(5px); /* Légère translation à droite */
+}
+
+/* Icônes (utilise Font Awesome ou un fichier SVG) */
+.nav a::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+.nav a[href="/"]::before {
+    background-image: url('/icons/home-icon.svg'); /* Icône pour "Accueil" */
+}
+
+.nav a[href="/projets"]::before {
+    background-image: url('/icons/project-icon.svg'); /* Icône pour "Projets" */
+}
+
+.nav a[href="/contact"]::before {
+    background-image: url('/icons/contact-icon.svg'); /* Icône pour "Contact" */
+}
+
+
+/* Mode sombre (optionnel) */
+@media (prefers-color-scheme: dark) {
+    .sidebar {
+        background-color: #df7eac; /* Fond plus clair en mode sombre */
+    }
+
+    .nav a:hover {
+        background-color: #f10f7b; /* Fond plus foncé au survol */
+    }
+}

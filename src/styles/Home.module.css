@@ -1,0 +1,110 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh; /* Prend toute la hauteur de l'écran */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #df7eac; /* Texte blanc */
+    text-align: center;
+    padding: 1rem 2rem 2rem 13rem;
+    animation: fadeIn 1s ease-in-out; /* Animation d'apparition */
+}
+
+.heroContent {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    animation: slideDown 0.8s ease-in-out; /* Animation d'apparition */
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    animation: slideUp 0.8s ease-in-out; /* Animation d'apparition */
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    animation: fadeIn 1s ease-in-out; /* Animation d'apparition */
+}
+
+.button {
+    background-color: #df7eac; /* Couleur de fond */
+    color: #fff; /* Texte blanc */
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #f10f7b; /* Couleur de fond au survol */
+    transform: translateY(-2px); /* Légère élévation */
+}
+
+.button:active {
+    transform: translateY(0); /* Retour à la position initiale */
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mode sombre (optionnel) */
+@media (prefers-color-scheme: dark) {
+    .hero {
+    }
+
+    .title,
+    .subtitle {
+        color: #4c1f1f; /* Texte clair en mode sombre */
+    }
+
+    .button {
+        background-color: #f10f7b; /* Couleur de fond en mode sombre */
+    }
+
+    .button:hover {
+        background-color: #df7eac; /* Couleur de fond au survol en mode sombre */
+    }
+}

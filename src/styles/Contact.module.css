@@ -1,0 +1,170 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem 2rem 20rem; /* Ajustez le padding selon vos besoins */
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #2c3e50; /* Couleur de titre */
+    animation: fadeIn 1s ease-in-out; /* Animation d'apparition */
+}
+
+.form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Largeur fixe pour un formulaire carré */
+    height: 400px; /* Hauteur fixe pour un formulaire carré */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espacement uniforme entre les éléments */
+    animation: slideUp 0.5s ease-in-out; /* Animation d'apparition */
+}
+
+.formGroup {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.formGroup label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #444; /* Couleur de texte */
+}
+
+.formGroup input,
+.formGroup textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+    border-color: #df7eac; /* Couleur de focus */
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(58, 101, 75, 0.2); /* Effet de focus avec la couleur #3a654b */
+}
+
+.formGroup textarea {
+    resize: vertical; /* Permet de redimensionner verticalement */
+    min-height: 100px; /* Hauteur minimale pour la zone de texte */
+}
+
+.button {
+    background-color: #df7eac; /* Couleur de fond */
+    color: #fff; /* Texte blanc */
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #df7eac; /* Couleur de fond au survol (légèrement plus foncée) */
+    transform: translateY(-2px); /* Légère élévation */
+}
+
+.button:active {
+    transform: translateY(0); /* Retour à la position initiale */
+}
+
+/* Style pour .motanasi9 */
+.motanasi9 {
+    background-color: #df7eac; /* Couleur de fond */
+    color: #fff; /* Texte blanc */
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.motanasi9:hover {
+    background-color: #df7eac; /* Couleur de fond au survol (légèrement plus foncée) */
+    transform: translateY(-2px); /* Légère élévation */
+}
+
+.motanasi9:active {
+    transform: translateY(0); /* Retour à la position initiale */
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mode sombre (optionnel) */
+@media (prefers-color-scheme: dark) {
+    .container h1 {
+        color: #fff; /* Titre clair en mode sombre */
+    }
+
+    .form {
+        background-color: #cc3a80; /* Fond sombre pour le formulaire */
+        color: #fff; /* Texte clair */
+    }
+
+    .formGroup label {
+        color: #ddd; /* Texte clair en mode sombre */
+    }
+
+    .formGroup input,
+    .formGroup textarea {
+        background-color: #df7eac; /* Fond sombre pour les champs */
+        border-color: #555; /* Bordure sombre */
+        color: #fff; /* Texte clair */
+    }
+
+    .formGroup input:focus,
+    .formGroup textarea:focus {
+        border-color: #df7eac; /* Couleur de focus en mode sombre */
+        box-shadow: 0 0 0 3px rgba(58, 101, 75, 0.2); /* Effet de focus */
+    }
+
+    .button,
+    .motanasi9 {
+        background-color: #f10f7b; /* Couleur de fond en mode sombre */
+    }
+
+    .button:hover,
+    .motanasi9:hover {
+        background-color: #df7eac; /* Couleur de fond au survol en mode sombre */
+    }
+}
