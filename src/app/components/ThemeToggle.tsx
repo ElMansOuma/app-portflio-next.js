@@ -7,6 +7,7 @@ export default function ThemeToggle() {
     const { theme, toggleTheme } = useTheme();
 
     return (
+
         <button onClick={toggleTheme} className="theme-toggle">
             {theme === 'light' ? '🌙 Mode sombre' : '☀️ Mode clair'}
         </button>

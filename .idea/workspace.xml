@@ -5,27 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eb409ae-dbcd-4b30-b20f-254241d9799a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/icons/contact-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/home-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/portfolio-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/project-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Sidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/ThemeToggle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projets/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Contact.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Footer.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Home.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Projets.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Sidebar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ThemeToggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ThemeToggle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Contact.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Contact.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +35,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Documents/app-portfolio&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -83,7 +71,8 @@
       <option name="presentableId" value="Default" />
       <updated>1741429872027</updated>
       <workItem from="1741429873219" duration="6083000" />
-      <workItem from="1741436521275" duration="10497000" />
+      <workItem from="1741436521275" duration="10711000" />
+      <workItem from="1741447350990" duration="2560000" />
     </task>
     <servers />
   </component>

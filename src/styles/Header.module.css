@@ -68,7 +68,7 @@
 }
 
 .theme-toggle {
-    background-color: #9368d6; /* Couleur de fond du bouton */
+    background-color: #f10f7b; /* Couleur de fond du bouton */
     color: #fff; /* Texte blanc */
     padding: 0.5rem 1rem;
     border: none;
@@ -80,7 +80,7 @@
 }
 
 .theme-toggle:hover {
-    background-color: #7c4dbf; /* Couleur de fond au survol */
+    background-color: #d57a6f; /* Couleur de fond au survol */
     transform: translateY(-2px); /* Légère élévation */
 }
 

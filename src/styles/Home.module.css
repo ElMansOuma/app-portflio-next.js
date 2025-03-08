@@ -108,3 +108,13 @@
         background-color: #df7eac; /* Couleur de fond au survol en mode sombre */
     }
 }
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
