@@ -6,29 +6,29 @@
 
 .container h1 {
 
-    color: #df7eac;
+    color: #df7eac; /* Couleur de titre */
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); /* 3 cartes par ligne */
     gap: 1.5rem;
 }
 
-
+/* Augmenter la taille des cartes */
 .card {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 1.5rem;
+    padding: 1.5rem; /* Augmenter le padding */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1 / 1; /* Garder la forme carrée */
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    max-width: 275px;
-    margin: 0 auto;
+    width: 100%; /* Largeur de la carte */
+    max-width: 275px; /* Augmenter la largeur maximale de la carte */
+    margin: 0 auto; /* Centrer la carte */
 }
 
 .card:hover {
@@ -41,16 +41,16 @@
 }
 
 .card h2 {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Augmenter la taille du titre */
     font-weight: bold;
-    margin-bottom: 0.7rem;
-    color: #f10f7b;
+    margin-bottom: 0.7rem; /* Augmenter l'espacement */
+    color: #f10f7b; /* Couleur de titre */
 }
 
 .card p {
-    font-size: 1rem; /
-    color: #555;
-    margin-bottom: 1rem;
+    font-size: 1rem; /* Augmenter la taille du texte */
+    color: #555; /* Couleur de texte */
+    margin-bottom: 1rem; /* Augmenter l'espacement */
 }
 
 .technologies {
@@ -61,19 +61,21 @@
 }
 
 .technologies span {
-    background-color: #df7eac;
-    color: #fff;
+    background-color: #df7eac; /* Couleur de fond pour les technologies */
+    color: #fff; /* Texte blanc */
     padding: 0.5rem 1rem;
     border-radius: 20px;
-    font-size: 0.875rem;
+    font-size: 0.875rem; /* Taille des badges */
 }
 
+/* Responsive : 2 cartes par ligne sur les tablettes */
 @media (max-width: 900px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
+/* Responsive : 1 carte par ligne sur les mobiles */
 @media (max-width: 600px) {
     .grid {
         grid-template-columns: 1fr;
@@ -83,23 +85,23 @@
 /* Mode sombre (optionnel) */
 @media (prefers-color-scheme: dark) {
     .container h1 {
-        color: #fff;
+        color: #fff; /* Titre clair en mode sombre */
     }
 
     .card {
-        background-color: #222020;
-        color: #fff;
+        background-color: #222020; /* Fond sombre pour les cartes */
+        color: #fff; /* Texte clair */
     }
 
     .card h2 {
-        color: #fff;
+        color: #fff; /* Titre clair en mode sombre */
     }
 
     .card p {
-        color: #ddd;
+        color: #ddd; /* Texte clair en mode sombre */
     }
 
     .technologies span {
-        background-color: #f10f7b;
+        background-color: #f10f7b; /* Couleur de fond pour les technologies en mode sombre */
     }
 }

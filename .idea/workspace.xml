@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eb409ae-dbcd-4b30-b20f-254241d9799a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/ThemeToggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/ThemeToggle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/context/ThemeContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/context/ThemeContext.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Contact.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Contact.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/Projets.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Projets.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +67,7 @@
       <updated>1741429872027</updated>
       <workItem from="1741429873219" duration="6083000" />
       <workItem from="1741436521275" duration="10711000" />
-      <workItem from="1741447350990" duration="3903000" />
+      <workItem from="1741447350990" duration="4126000" />
     </task>
     <servers />
   </component>
