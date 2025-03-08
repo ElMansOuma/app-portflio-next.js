@@ -1,5 +1,16 @@
 <<<<<<< HEAD
 # app-portflio-next.js
+## Aperçu du Portfolio
+
+### Page d'accueil
+![Home](https://raw.githubusercontent.com/ElMansOuma/app-portflio-next.js/main/public/images/home.png)
+
+### Page de Contact
+![Contact](https://raw.githubusercontent.com/ElMansOuma/app-portflio-next.js/main/public/images/contact.png)
+
+### Page des Projets
+![Projet](https://raw.githubusercontent.com/ElMansOuma/app-portflio-next.js/main/public/images/projet.png)
+
 =======
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
