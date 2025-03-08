@@ -1,4 +1,6 @@
-'use client';
+// src/app/context/ThemeContext.tsx
+'use client'; // Indique que ce fichier est un composant client
+
 import { createContext, useState, useContext, ReactNode, useEffect } from 'react';
 
 type Theme = 'light' | 'dark';

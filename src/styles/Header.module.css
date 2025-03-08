@@ -87,3 +87,38 @@
 .theme-toggle:active {
     transform: translateY(0); /* Retour à la position initiale */
 }
+/* src/styles/Header.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.lightHeader {
+    background-color: #2c3e50; /* Couleur de fond du header en mode clair */
+    color: #fff; /* Texte blanc en mode clair */
+}
+
+.darkHeader {
+    background-color: #121212; /* Couleur de fond du header en mode sombre */
+    color: #fff; /* Texte blanc en mode sombre */
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.title h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}

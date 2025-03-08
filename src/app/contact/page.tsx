@@ -48,8 +48,7 @@ export default function Contact() {
     };
 
     return (
-        <div className={styles.container}>
-            <h1>Contactez-moi</h1>
+        <div className={styles.container}><br/> <p></p>
 
             {submitStatus.message && (
                 <div className={`${styles.alert} ${submitStatus.success ? styles.success : styles.error}`}>
