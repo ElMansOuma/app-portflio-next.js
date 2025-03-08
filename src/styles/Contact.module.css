@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    padding: 1rem 2rem 2rem 20rem; /* Ajustez le padding selon vos besoins */
+    padding: 1rem 2rem 2rem 20rem;
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
@@ -12,8 +12,8 @@
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 2rem;
-    color: #2c3e50; /* Couleur de titre */
-    animation: fadeIn 1s ease-in-out; /* Animation d'apparition */
+    color: #2c3e50;
+    animation: fadeIn 1s ease-in-out;  
 }
 
 .form {
@@ -54,14 +54,14 @@
 
 .formGroup input:focus,
 .formGroup textarea:focus {
-    border-color: #df7eac; /* Couleur de focus */
+    border-color: #df7eac;
     outline: none;
-    box-shadow: 0 0 0 3px rgba(58, 101, 75, 0.2); /* Effet de focus avec la couleur #3a654b */
+    box-shadow: 0 0 0 3px rgba(58, 101, 75, 0.2);
 }
 
 .formGroup textarea {
-    resize: vertical; /* Permet de redimensionner verticalement */
-    min-height: 100px; /* Hauteur minimale pour la zone de texte */
+    resize: vertical;
+    min-height: 100px;
 }
 
 .button {
@@ -99,15 +99,14 @@
 }
 
 .motanasi9:hover {
-    background-color: #df7eac; /* Couleur de fond au survol (légèrement plus foncée) */
-    transform: translateY(-2px); /* Légère élévation */
+    background-color: #df7eac;
+    transform: translateY(-2px);
 }
 
 .motanasi9:active {
-    transform: translateY(0); /* Retour à la position initiale */
+    transform: translateY(0);
 }
 
-/* Animations */
 @keyframes fadeIn {
     from {
         opacity: 0;

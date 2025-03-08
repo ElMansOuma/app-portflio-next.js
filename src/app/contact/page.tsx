@@ -28,10 +28,10 @@ export default function Contact() {
         setIsSubmitting(true);
 
         try {
-            // Simuler un envoi de formulaire - remplacez par votre API réelle
+
             await new Promise(resolve => setTimeout(resolve, 1000));
 
-            // Réinitialiser le formulaire après succès
+            // Reinitialiser le formulaire après succès
             setFormData({ name: '', email: '', message: '' });
             setSubmitStatus({
                 success: true,

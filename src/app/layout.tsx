@@ -1,4 +1,3 @@
-// src/app/layout.tsx
 import Header from '@/app/components/Header';
 import Sidebar from '@/app/components/Sidebar';
 import Footer from '@/app/components/Footer';
@@ -9,7 +8,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="fr">
         <body>
-        <ThemeProvider> {/* Enveloppez toute l'application avec ThemeProvider */}
+        <ThemeProvider>
             <Header />
             <div className="main-container">
                 <Sidebar />
